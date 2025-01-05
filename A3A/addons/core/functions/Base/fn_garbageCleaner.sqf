@@ -26,7 +26,7 @@ sleep 0.5;
 { if (isNull attachedTo _x) then { [_x, 500] call _fnc_distCheck } } forEach (allMissionObjects FactionGet(reb,"surrenderCrate"));// Surrender boxes
 { deleteVehicle _x } forEach (allMissionObjects "Leaflet_05_F");				// Drone drop leaflets
 { deleteVehicle _x } forEach (allMissionObjects "Ejection_Seat_Base_F");		// All vanilla ejection seats
-
+//pissboy
 // Cleanup rebel vehicles
 {
 	// Locked check is a hack for roadblock vehicles
